@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Random Password Generator</div>
+      <div class="box">
+        <img src="" alt="" />
+        <br />
+        <label for="length">Length of Password:</label>
+        <input id="length" type="text" placeholder="Enter the length.." />
+        <br />
+        <label for="special"> How many special character:</label>
+        <input id="special" type="text" placeholder="Enter the length.." />
+        <br />
+        <label for="alpha">How many Small Alphabates:</label>
+        <input id="alpha" type="text" placeholder="Enter the length.." />
+        <br />
+        <label for="calpha">How many Capital Alphabates:</label>
+        <input id="calpha" type="text" placeholder="Enter the length.." />
+        <br />
+        <label for="num"> How many Numeric Values:</label>
+        <input id="num" type="text" placeholder="Enter the length.." />
+        <br />
+        <div class="message"></div>
+        <br />
+        <button class="btn" onClick="generate()">Generate</button>
+        <br />
+        <div id="password">HERE IS YOUR PASSWORD</div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
